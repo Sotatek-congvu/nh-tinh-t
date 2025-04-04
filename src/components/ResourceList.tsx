@@ -3,7 +3,8 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useLearning } from '@/context/LearningContext';
-import { BookOpen, Video, FileText, Graduation, LayoutGrid } from 'lucide-react';
+import { BookOpen, Video, FileText, LayoutGrid } from 'lucide-react';
+import { Graduation } from '@/utils/iconCompat';
 
 const ResourceList: React.FC = () => {
   const { pathway } = useLearning();
